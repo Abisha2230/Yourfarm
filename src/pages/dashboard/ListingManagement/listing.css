@@ -1,0 +1,61 @@
+.hovaddress:hover{
+    cursor:pointer
+}
+.card {
+    padding: 1rem;
+    height: 5rem;
+  }
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: .5rem;
+  }
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .button {
+    padding: 7px 17px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(196, 194, 194);
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(255, 255, 255);
+    transform: translateY(1px);
+  }
+
+  .cancelbutton{
+    padding: 7px 17px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #e05454;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(196, 194, 194);
+  }
+  .cancelbutton:hover{
+    background-color: #f05050
+  }
+  .cancelbutton:active {
+    background-color: #e23434;
+    box-shadow: 0 5px rgb(255, 255, 255);
+    transform: translateY(1px);
+  }

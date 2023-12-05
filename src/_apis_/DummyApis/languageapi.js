@@ -1,0 +1,38 @@
+export const LanguageData=[
+       {
+        id:"1",   
+        code:"en",
+        name:"English",
+        assign:"yes",
+       },
+      /* {
+           id:"2",
+           code:"ar",
+           name:"Arabic",
+           assign:"No",
+       },
+       {
+           id:"3",
+           code:"az",
+           name:"Azerbaijani",
+           assign:"No",
+       },
+       {
+           id:"4",
+           code:"zh",
+           name:"Chinese",
+           assign:"No",
+       },
+       {
+           id:"5",
+           code:"fr",
+           name:"French",
+           assign:"No",
+       },*/
+       {
+           id:"6",
+           code:"tm",
+           name:"Tamil",
+           assign:"no",
+       }
+]
